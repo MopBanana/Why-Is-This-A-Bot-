@@ -1,4 +1,5 @@
 import discord
+import os
 
 client = discord.Client()
 
@@ -23,4 +24,4 @@ async def on_message(message):
         await message.channel.send('https://tenor.com/view/baka-anime-gif-12908346')
     if message.content.startswith('!gun'):
         await message.channel.send('https://tenor.com/view/iwin-easy-shooting-gun-shot-gun-gif-13437188')
-client.run("ODQ4MTgwNDM4MDgyMjU2OTE2.YLI3lg.PSqossuxJESaJzQZ5YxdX7uQI-k")
+client.run(os.environ['access'])

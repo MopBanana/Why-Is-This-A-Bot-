@@ -19,7 +19,7 @@ async def on_message(message):
     if message.content.startswith('!mykullsax'):
         await message.channel.send('https://tenor.com/view/michael-michael-reeves-saxophone-music-gif-19814036')
     if message.content.startswith('!gay'):
-        await message.channel.send('https://tenor.com/view/them-old-gay-boys-leslie-jordan-cameo-gay-gay-boys-gif-17826781')
+        await message.channel.send('https://media1.tenor.com/images/6aeaadd18095ba812ba267dc9b188f72/tenor.gif?itemid=17057380')
     if message.content.startswith('!baka'):
         await message.channel.send('https://tenor.com/view/baka-anime-gif-12908346')
     if message.content.startswith('!gun'):
